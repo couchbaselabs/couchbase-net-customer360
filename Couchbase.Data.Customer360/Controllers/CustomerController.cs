@@ -99,7 +99,7 @@ namespace Couchbase.Data.Customer360.Controllers
             return View();
         }
 
-        // POST: Customer/Delete/5
+        // DELETE: Customer/Delete/5
         [HttpDelete]
         public JsonResult Delete(Customer customer)
         {
